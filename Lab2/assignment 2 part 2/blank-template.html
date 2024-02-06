@@ -1,22 +1,36 @@
+<!---
+  Name; Bahara Nazari
+  File Name; Blank templete
+  Date; 6, Feb 2024
+  Description: a table web that display the information about the planets  
+-->
+
+
+
+<!--starting points-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <!-- adding the title -->
     <title>Table template</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <h1>Table template</h1>
+    <!-- adding the tables -->
     <table>
+      <!-- adding caption -->
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
       </caption>
       <colgroup>
+        <!-- adding colors and style to the table-->
         <col span="2">
         <col style="border:2px solid black ">
         <col span="9">
       </colgroup>
-        <thead> <!-- Adding the rows of the table-->
+        <thead> <!-- Adding the coloumns of the table-->
           <tr>
             <td colspan="2"></td>
             <th scope="col"> Name</th>
@@ -44,6 +58,7 @@
 
         <tbody> 
           <tr>
+            <!-- adding the fisrt row-->
             <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
             <td> Mercury</td>
             <td> 0.330 </td>
@@ -57,6 +72,7 @@
             <td>Closest to the Sun</td>
           </tr>
           <tr>
+            <!-- adding the second row-->
             <th scope="row"> Venus</th>
             <td> 4.87 </td>
             <td>12,104 </td>
@@ -69,6 +85,7 @@
             <td>it rains Sulfuric acid</td>
           </tr>
           <tr>
+            <!-- adding the third row-->
           <th scope="row">Earth</th>
           <td>5.97 </td>
           <td> 12,756 </td>
@@ -81,6 +98,7 @@
           <td> Our world </td>
           </tr>
           <tr>
+            <!--adding the fourth row -->
           <th scope="row">Mars</th>
           <td> 0.642 </td>
           <td> 6,792 </td>
@@ -93,6 +111,8 @@
           <td> The red planet </td>
           </tr>
           <tr>
+            <!-- adding sub tables-->
+            <!-- adding the 5th row -->
             <th rowspan="4" scope="rowgroup">Jovian planets</th>
             <th rowspan="2" scope="rowgroup">Gas giants</th>
             <th scope="row">Jupiter</th>
@@ -107,6 +127,7 @@
             <td>The largest planet </td>
           </tr>
           <tr>
+            <!--adding the 6th row-->
             <th scope="row"> Saturn</th>
             <td> 568</td>
             <td> 120,536 </td>
@@ -119,6 +140,7 @@
             <td>it has an extensive ring</td>
           </tr>
           <tr>
+            <!-- adding the 7th row-->
             <th rowspan="2" scope="rowgroup">Ice giants</th>
             <th scope="row"> Uranus</th>
             <td> 86.8</td>
@@ -132,6 +154,7 @@
             <td>it has 21 seasons </td>
           </tr>
           <tr>
+            <!-- adding the 8th row-->
             <th scope="row"> Neptune</th>
             <td>102</td>
             <td> 49,528 </td>
@@ -144,6 +167,7 @@
             <td>a day in neptune is 16h</td>
           </tr>
           <tr>
+            <!-- adding the 9th row -->
             <th colspan="2" scope="row">Dwarf planet</th>
             <th scope="row"> Pluto</th>
             <td>0.0146</td>
