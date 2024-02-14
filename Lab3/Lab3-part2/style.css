@@ -3,3 +3,35 @@ html {
 }
 
 /* Your CSS below here */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 0;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 17px;
+  background-color: red;
+  border-radius: 8px; /* Fairly subtle border radius */
+  border: 1px solid #0056b3; /* 1-pixel solid border with slightly darker shade */
+  padding: 10px;
+  position: centre;
+ 
+  
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  div {
+    width: 200px; /* Adjust width for smaller screens */
+    margin: 10px auto; /* Center the box horizontally */
+  }
+}
