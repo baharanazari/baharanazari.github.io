@@ -1,5 +1,4 @@
 /* General setup */
-
 * {
   box-sizing: border-box;
 }
@@ -8,6 +7,7 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Example font stack */
 }
 
 /* Layout */
@@ -43,3 +43,21 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+h1 {
+  font: bold;
+  font-style: italic;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+
+ul {
+  color: black;
+  list-style-type: square;
+}
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
