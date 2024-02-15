@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-
+}
 
 /* Your CSS below here */
 body {
@@ -12,29 +12,23 @@ body {
   margin: 0;
 }
 
-div {
-  width: 200px;
-  height: 100px;
-  text-align: center; /* Center text horizontally */
-  line-height: 100px; /* Center text vertically */
-  color: #f0f0f0;
-  font-size: 17px;
-  background-color: red;
-  border-radius: 8px;
-  border: 1px solid #e3e6e9;
-  padding: 10px;
-  position: relative;
-  overflow: hidden; /* Ensure gradient doesn't overflow */
-}
 
-/* Linear gradient */
-div::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
-}
+.box-style {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  margin: 0 auto;
+  font-size: 1.7rem;
+  color: #f0f0f0;
+  text-shadow: 1px 2px black;
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px black, inset 3px 3px 5px black,inset -3px -3px 5px whitesmoke;
+  background-image:linear-gradient(to bottom right, black rgba(0,0,0)0%,blackrgba(0,0,0,0.2)30%,black rgba(0,0,0,0.2)100%);
+
 }
