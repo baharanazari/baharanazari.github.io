@@ -6,28 +6,28 @@ html {
 body {
   background-color: #f0f0f0; /* Light gray background */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center; /*Centering the body*/
+  align-items: center; /*center the text in the box*/
+  height: 100vh; /* make the box to be in the centre and the hiegght*/
   margin: 0;
 }
 
 
-.box-style {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.box-style { /* styling the box */
+  width: 400px; /* width of the box */
+  height: 400px; /* height of the box*/
+  display: flex; /* allows to create flexible layout*/
+  justify-content: center; /* centring the content */
+  align-items: center; /* centering the item in the box*/
 
 
   margin: 0 auto;
-  font-size: 1.7rem;
-  color: #f0f0f0;
-  text-shadow: 1px 2px black;
-  background-color: red;
-  border: 3px solid black;
-  border-radius: 8px;
+  font-size: 1.7rem; /* font size*/
+  color: #f0f0f0; /* color of the font */
+  text-shadow: 1px 2px black; /* shodow of the text and color */
+  background-color: red; /* background color*/
+  border: 3px solid black; /* border color */
+  border-radius: 8px; /*     */
   box-shadow: 5px 5px 10px black, inset 3px 3px 5px black,inset -3px -3px 5px whitesmoke;
   background-image:linear-gradient(to bottom right, black rgba(0,0,0)0%,blackrgba(0,0,0,0.2)30%,black rgba(0,0,0,0.2)100%);
 
