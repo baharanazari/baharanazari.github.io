@@ -7,13 +7,12 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  font-family: "Oswald-Regular"; /* Use your custom font as the first choice */
-  font-size: 10px ;
-  line-height: 1.6; /* Adjust line-height as needed */
-  letter-spacing: 0.5px; /* Adjust letter-spacing as needed */
-  word-spacing: 1px; /* Adjust word-spacing as needed */
+  font-family: "Oswald-Regular";
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
 }
-
 
 /* Layout */
 section {
@@ -35,29 +34,35 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* Header and footer */
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
 
 /* Font faces */
 @font-face {
-  font-family: "Lato Light Italic"; /* Name your custom font */
-  src: url("Oswald-Regular.ttf") format("truetype"); 
+  font-family: "Lato Light Italic";
+  src: url("Oswald-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Oswald Variable"; /* Name your custom font */
-  src: url("Headlines-MediumItalic.otf") format("truetype"); 
+  font-family: "Oswald Variable";
+  src: url("Headlines-MediumItalic.otf") format("truetype");
+}
 
 /* Content styling */
 h1 {
-  font-weight: bold; /* Correct property name */
+  font-weight: bold;
   font-style: italic;
   font-family: "Oswald Variable";
   text-align: center;
@@ -66,7 +71,6 @@ h1 {
 }
 
 h2 {
-  
   font-family: "Oswald Variable";
   font-size: 15px;
   letter-spacing: 1px;
@@ -76,59 +80,57 @@ ul {
   color: black;
   list-style-type: square;
 }
-/* styling the nav, ul, and list parts */
+
 nav ul li {
   color: white;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 5px;
   border: 2px solid darkred;
-  
 }
 
 ul li a,
-p a  {
-color:darkred
+p a {
+  color: darkred;
 }
-
-
 
 ol li a {
   color: darkred;
   text-decoration: underline;
 }
+
 ul ol {
-  margin-top: 20px; /* Adjust spacing at the top of the list */
-  margin-bottom: 20px; /* Adjust spacing at the bottom of the list */
-  padding-left: 20px; /* Add padding to the left of the list */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
 
-ul li, ol li {
-  line-height: 1.5; /* Set line-height same as paragraph line */
-  margin-bottom: 5px; /* Adjust spacing between list items */
-  list-style-type: square; /* Use sqaure bullets for unordered lists */
+ul li,
+ol li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+  list-style-type: square;
 }
+
 a {
-  color: darkred; /* Default color */
-  text-decoration: underline; /* Add underline by default */
+  color: darkred;
+  text-decoration: underline;
 }
-
 
 a:hover {
-  text-decoration: none; /* Remove underline on hover */
-  
+  text-decoration: underline;
+  color: red; /* Change the color on hover */
 }
-
 
 a:focus {
-  text-decoration: none; 
   outline: none;
-}
-section h1 + p,
-section h2 + p {
-  text-indent: 20px; /* text identation */
+  text-decoration: underline;
 }
 
+section h1 + p,
+section h2 + p {
+  text-indent: 20px;
+}
 
 div {
   width: 300px;
