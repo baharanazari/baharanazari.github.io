@@ -48,13 +48,12 @@ header, footer {
 /* Font faces */
 @font-face {
   font-family: "Lato Light Italic"; /* Name your custom font */
-  src: url("Oswald-Regular.ttf") format("truetype"); /* Specify the correct path to your font file */
+  src: url("Oswald-Regular.ttf") format("truetype"); 
 }
 
 @font-face {
   font-family: "Oswald Variable"; /* Name your custom font */
-  src: url("Headlines-MediumItalic.otf") format("truetype"); /* Specify the correct path to your font file */
-}
+  src: url("Headlines-MediumItalic.otf") format("truetype"); 
 
 /* Content styling */
 h1 {
@@ -77,7 +76,7 @@ ul {
   color: black;
   list-style-type: square;
 }
-
+/* styling the nav, ul, and list parts */
 nav ul li {
   color: white;
   border-radius: 10px;
@@ -107,7 +106,7 @@ ul ol {
 ul li, ol li {
   line-height: 1.5; /* Set line-height same as paragraph line */
   margin-bottom: 5px; /* Adjust spacing between list items */
-  list-style-type: square; /* Use disc bullets for unordered lists */
+  list-style-type: square; /* Use sqaure bullets for unordered lists */
 }
 a {
   color: darkred; /* Default color */
@@ -127,7 +126,7 @@ a:focus {
 }
 section h1 + p,
 section h2 + p {
-  text-indent: 20px;
+  text-indent: 20px; /* text identation */
 }
 
 
