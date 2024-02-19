@@ -7,6 +7,8 @@ body {
 
   img {
       max-width: 100%;
+      float: left;
+      margin-right: 20px; /* Adjust margin as needed */
       display: block;
   }
   
@@ -26,7 +28,20 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+    float: left;
+    width: 100%;
+    position: sticky; /* Make navigation bar sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000;
+}
+  li {
+    display: inline;
+    
+    
+    
   }
+   
+  
   
   nav ul {
     margin: 0;
@@ -38,6 +53,8 @@ body {
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
+
+    
   }
   
   .photos {
@@ -45,6 +62,23 @@ body {
     margin: 0;
     padding: 0;
   }
+  .grid {
+    display: flex;
+  }
+ artical,side
+ {
+  flex: 1px;
+ }
+ .photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 1px; /* 1 pixel gap between images */
+}
+
+.photos li {
+  list-style: none; /* Remove default list style */
+}
+  
 
   .feature {
       width: 200px;
