@@ -1,91 +1,107 @@
+/* Name; Bahara
+  Date; 20 feb 2024
+  App Name; Css style for the vlog website */
+
+
+
+
 body {
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-  }
-
-  img {
-      max-width: 100%;
-      float: left;
-      margin-right: 20px; /* Adjust margin as needed */
-      display: block;
-  }
-  
-  .logo {
-    font-size: 200%;
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  
-  .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-  }
-  
-  nav {
-    background-color: #000;
-    padding: .5em;
-    float: left;
-    width: 100%;
-    position: sticky; /* Make navigation bar sticky */
-    top: 0; /* Stick to the top */
-    z-index: 1000;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  margin: 0; /* set margin to 0*/
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif; /* Font style */
 }
-  li {
-    display: inline;
-    
-    
-    
-  }
-   
-  
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-  }
-  nav  ul li {
-    padding: 10px;
-    margin: auto;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: .5em 1em;
 
-    
-  }
-  
-  .photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .grid {
-    display: flex;
-  }
- artical,side
- {
-  flex: 1px;
- }
- .photos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
+/* Set styles for images */
+img {
+  max-width: 100%; /*image max width */
+  float: left; /* Float images to the left */
+  margin-right: 20px; /* Adjust margin as needed */
+  display: block; /* Display images as block elements */
+}
+
+/* Styles for the logo */
+.logo {
+  font-size: 200%; /* Larger font size for the logo */
+  padding: 50px 20px; /* Padding around the logo */
+  margin: 0 auto; /* Center the logo horizontally */
+  max-width: 980px; /* Limit the width of the logo */
+}
+
+/* Styles for grid container */
+.grid {
+  margin: 0 auto; 
+  padding: 0 20px; 
+  max-width: 980px;
+}
+
+/* Styles for navigation bar */
+nav {
+  background-color: #000; /* Black background for navigation */
+  padding: .5em; /* Padding around navigation items */
+  float: left;
+  width: 100%;
+  position: sticky; /* Make navigation bar sticky */
+  top: 0; /* Stick to the top */
+  z-index: 1000; }
+
+/* Styles for list items */
+li {
+  display: inline; /* Display list items inline */
+}
+
+/* Styles for navigation menu */
+nav ul {
+  margin: 0; /* set the  margin to 0*/
+  padding: 0; /* set the padding to 0 */
+  display: flex; /* Display navigation items as flex */
+  justify-content: space-between; /* Equal space between items */
+  list-style: none; /* Remove default list styles */
+}
+
+/* Styles for navigation menu items */
+nav ul li {
+  padding: 10px; /* Padding around each navigation item */
+  margin: auto; 
+}
+
+/* Styles for navigation links */
+nav a {
+  color: #fff; /* White color for navigation links */
+  text-decoration: none; /* Remove underline from links */
+  padding: .5em 1em; /* Padding around links */
+}
+
+/* Styles for photos */
+.photos {
+  list-style: none; /* Remove default list styles */
+  margin: 0; /* set margin to 0*/
+  padding: 0; /* set padding to 0 */
+}
+
+/* Additional styles for grid */
+.grid {
+  display: flex; /* Display grid items as flex */
+}
+
+/* Styles for article and side sections */
+article, side {
+  flex: 1px; 
+}
+
+/* Styles for photo grid */
+.photos {
+  display: grid; /* Display photos as grid */
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
   grid-gap: 1px; /* 1 pixel gap between images */
 }
 
+/* Styles for photo list items */
 .photos li {
   list-style: none; /* Remove default list style */
 }
-  
 
-  .feature {
-      width: 200px;
-  }
+/* Styles for feature */
+.feature {
+  width: 200px; /* Set width for feature */
+}
