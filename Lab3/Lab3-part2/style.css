@@ -14,6 +14,7 @@ html {
 /* Your CSS below here */
 body {
   background-color: #f0f0f0; /* Light gray background */
+  font-style: italic;
   display: flex;
   justify-content: center; /*Centering the body*/
   align-items: center; /*center the text in the box*/
