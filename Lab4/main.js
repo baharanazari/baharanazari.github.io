@@ -9,7 +9,7 @@ function randomValueFromArray(array){
 
 
 
-var storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
+var storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz: Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
 
 var insertX =  ["Willy the Goblin","Big Daddy", "Father Christmas"]
 var insertY = ["the soup kitchen","Disneyland","the White House"]
@@ -25,9 +25,10 @@ function result() {
     var yItem = randomValueFromArray(insertY);
     var zItem = randomValueFromArray(insertZ);
 
- newStory = newStory.replace(':inserX:',xItem)
- newStory= newStory.replace(':insertY:',yItem)
- newStory = newStory.replace(':insertZ:',zItem)
+ newStory = newStory.replace(':insertx:',xItem)
+ newStory = newStory.replace(':insertx:',xItem)
+ newStory= newStory.replace(':inserty:',yItem)
+ newStory = newStory.replace(':insertz:',zItem)
 
   if(customName.value !== '') {
     const name = customName.value;
@@ -43,6 +44,6 @@ function result() {
 
   }
 
-  story.textContent = newStory  ;
+  story.textContent = newStory ;
   story.style.visibility = 'visible';
 }
