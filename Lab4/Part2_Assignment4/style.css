@@ -55,5 +55,6 @@ button {
 .thumb-bar img{
   width: 20%;
   float: left;
+  cursor: pointer;
   margin-right: 5px;
 }
