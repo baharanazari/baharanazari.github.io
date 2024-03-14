@@ -15,13 +15,21 @@ body {
   height: 480px;
 }
 
+
+.full-img img{
+
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 640px;
   height: 480px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0,0.5);
 }
 
 button {
