@@ -5,11 +5,19 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
+const images = ["pic1.jpg","pic2.jpg","pic3.jpg","pi4.jpg","pic5.jpg"]
 
 /* Declaring the alternative text for each image file */
+const altText = {
+    "pic1.jpg":"thumbnail image1",
+    "pic2.jpg":"thumbnail image2",
+    "pic3.jpg":"thumbnail image3",
+    "pic4.jpg":"thumbnail image4",
+    "pic5.jpg":"thumbnail image5",
+};
 
 /* Looping through images */
-
+images.forEach(pic1.jpg)
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
 newImage.setAttribute('alt', xxx);
