@@ -24,3 +24,18 @@ newImage.setAttribute('alt', xxx);
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', function() {
+    // Check the current class name set on the button
+    const currentClass = btn.getAttribute('class');
+
+    // Toggle between "dark" and "light" class names
+    if (currentClass === "dark") {
+        btn.setAttribute('class', 'light');
+        btn.textContent = 'Lighten';
+        overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    } else {
+        btn.setAttribute('class', 'dark');
+        btn.textContent = 'Darken';
+        overlay.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    }
+});
