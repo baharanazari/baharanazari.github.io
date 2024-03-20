@@ -98,23 +98,23 @@ class EvilCircle extends Shape{
   }
   checkBound() {
     if (this.x + this.size >= width) {
-      this.velX = -Math.abs(this.velX);
+      this.x = -Math.abs(this.x);
     }
 
     if (this.x - this.size <= 0) {
-      this.velX = Math.abs(this.velX);
+      this.x= Math.abs(this.x);
     }
 
     if (this.y + this.size >= height) {
-      this.velY = -Math.abs(this.velY);
+      this.y = -Math.abs(this.y);
     }
 
     if (this.y - this.size <= 0) {
       this.velY = Math.abs(this.velY);
     }
 
-    this.x += this.velX;
-    this.y += this.velY;
+    
+    
   }
 
 
