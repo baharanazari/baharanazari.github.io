@@ -174,6 +174,10 @@ function loop() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
   ctx.fillRect(0, 0, width, height);
 
+  EvilCircle.draw();
+  EvilCircle.checkBound();
+  EvilCircle.collisionDetect();
+
   for (const ball of balls) {
     ball.draw();
     ball.update();
@@ -182,5 +186,6 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
+const evilCircle = new EvilCircle(width / 2, height / 2); // Position at the center of the canvas
 
 loop();
