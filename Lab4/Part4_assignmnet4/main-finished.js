@@ -110,15 +110,26 @@ class EvilCircle extends Shape{
     }
 
     if (this.y - this.size <= 0) {
-      this.velY = Math.abs(this.velY);
+      this.y = Math.abs(this.y);
     }
-
-    
-    
   }
-
-
+  collisionDetect() {
+    for (const ball of balls) {
+      if ( ball.exists) {
+        const dx = this.x - ball.x;
+        const dy = this.y - ball.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+  
+        if (distance < this.size + ball.size) {
+          ball.exist = false;
+        }
+      }
+    }
   }
+} 
+
+
+  
   window.addEventListener("keydown", (e) => {
     switch (e.key) {
       case "a":
