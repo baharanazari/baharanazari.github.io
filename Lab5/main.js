@@ -4,8 +4,17 @@ const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
-
 showHideBtn.onclick = function() {
+  toggleComments();
+};
+showHideBtn.addEventListener('keydown', function(event) {
+  if (event.keyCode === 13) { // Check if the return key is pressed
+    toggleComments();
+  }
+});
+
+
+function toggleComments() {
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
     showHideBtn.textContent = 'Hide comments';
