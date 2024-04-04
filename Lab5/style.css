@@ -6,8 +6,9 @@ html, body {
 }
 
 html {
-  font-size: 10px;
+  font-size: 14px;
   background-color:rgb(145, 197, 244);
+  font-size: small;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 
 font[size="7"], font[size="6"], font[size="5"] {
   font-family: 'Sonsie One', cursive;
-  color: #2a2a2a;
+  color: #080808;
 }
 
 p, input, li, table, label {
@@ -71,6 +72,7 @@ div[class="nav"] {
   margin-bottom: 10px;
   position:sticky;
   top: 0;
+  font-size: 12px;
   
 }
 
@@ -147,23 +149,28 @@ table {
   width: 100%;
   background-color:#def;
   border-collapse: collapse;
+  
 }
 
 th, td {
   padding: 10px;
+  
 }
 
 td {
   text-align: center;
+ 
 }
 
 th[scope="col"] {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 tbody tr:nth-child(odd) {
   background-color:aliceblue;
+  
 }
+
 
 /* styling content images and audio */
 
