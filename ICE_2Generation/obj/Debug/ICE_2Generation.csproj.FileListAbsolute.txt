@@ -1,0 +1,10 @@
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\bin\Debug\ICE_2Generation.exe.config
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\bin\Debug\ICE_2Generation.exe
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\bin\Debug\ICE_2Generation.pdb
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.Form1.resources
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.Properties.Resources.resources
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.csproj.GenerateResource.cache
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.exe
+C:\Users\PC\OneDrive\Documents\Desktop\OOP2\ICE_2Generation\obj\Debug\ICE_2Generation.pdb
